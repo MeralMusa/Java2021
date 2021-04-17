@@ -19,23 +19,13 @@ public class String_Equals {
 		System.out.println(b3 + "|" + b4);
 		
 		String s4 = new String("Welcome to Java");
-		System.out.println(s1==s4);
+//      String new keyword created a new object 
+//		on the heap memory,by that we have two Strings with the 
+//		same value but stored different. S1 on stringpool s4 outside 
+//		from string pool in the Heap memory. This is the reason why 
+//      it comes False by comparing, unless we choose equals method.
+	System.out.println(s1==s4);
 		System.out.println(s1.equals(s4));
-		
-		
-		
-	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 
 	}
 
